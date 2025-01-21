@@ -7,3 +7,6 @@ dependencies:
   - pillow
   - opencv
   - pytesseract
+  - pip
+  - pip:
+      - pillow-heif
