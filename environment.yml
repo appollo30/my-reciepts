@@ -4,9 +4,11 @@ channels:
   - conda-forge
 dependencies:
   - python=3.11
+  - pip
+  - jupyterlab
   - pillow
   - opencv
   - pytesseract
-  - pip
-  - pip:
-      - pillow-heif
+  - pytorch
+  - torchvision
+  - easyocr
