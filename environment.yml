@@ -5,7 +5,10 @@ channels:
 dependencies:
   - python=3.11
   - pip
+  - pillow
   - pip:
     - paddleocr
     - paddlepaddle
-  - pillow
+    - pillow-heif
+  - numpy
+  - pylint
