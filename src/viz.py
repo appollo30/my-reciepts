@@ -1,8 +1,10 @@
 import os
+from typing import List
 from paddleocr import draw_ocr
 from PIL import Image
 
-def visualize_results(img,result,lang="french",draw=False):
+def visualize_results(img : Image, result : List,
+                      lang : str = "french", draw : bool = False) -> Image:
     # Path for font to draw
     font_path = os.path.join(".","data","fonts",f"{lang}.ttf")
     # Actual drawing
