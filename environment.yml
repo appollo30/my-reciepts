@@ -2,13 +2,8 @@ name: reciepts
 channels:
   - defaults
   - conda-forge
+  - Paddle
 dependencies:
   - python=3.11
-  - pip
-  - jupyterlab
   - pillow
-  - opencv
-  - pytesseract
-  - pytorch
-  - torchvision
-  - easyocr
+  - paddlepaddle
